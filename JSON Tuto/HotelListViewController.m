@@ -46,8 +46,7 @@
     [self.tableView reloadData];
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     
     // Set controller title
@@ -72,6 +71,13 @@
 
 #pragma mark - Table view data source
 
+-(UIImage*) getStarImageForHotel:(id) hotel {
+    NSString* pattern = @"%d-star@full.png";
+    NSString* starCountString = [hotel[@"stars"] substringWithRange:NSMakeRange(5, 1)];
+    NSInteger starCount = [starCountString integerValue];
+    return [UIImage imageNamed:[NSString stringWithFormat:pattern, starCount]];
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
@@ -85,6 +91,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     id hotel = self.hotels[indexPath.row];
     cell.textLabel.text = hotel[@"name"];
+    cell.imageView.image = [self getStarImageForHotel:hotel];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
