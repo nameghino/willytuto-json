@@ -16,6 +16,9 @@
 		35B24FD51715B18800B446ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B24FD41715B18800B446ED /* Default.png */; };
 		35B24FD71715B18800B446ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B24FD61715B18800B446ED /* Default@2x.png */; };
 		35B24FD91715B18800B446ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B24FD81715B18800B446ED /* Default-568h@2x.png */; };
+		35B24FE01715B1EC00B446ED /* DataHotel.json in Resources */ = {isa = PBXBuildFile; fileRef = 35B24FDF1715B1EC00B446ED /* DataHotel.json */; };
+		35B24FE31715B20A00B446ED /* HotelListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B24FE21715B20A00B446ED /* HotelListViewController.m */; };
+		35B24FE61715B62000B446ED /* HotelDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B24FE51715B62000B446ED /* HotelDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		35B24FD41715B18800B446ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		35B24FD61715B18800B446ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		35B24FD81715B18800B446ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		35B24FDF1715B1EC00B446ED /* DataHotel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataHotel.json; sourceTree = "<group>"; };
+		35B24FE11715B20A00B446ED /* HotelListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelListViewController.h; sourceTree = "<group>"; };
+		35B24FE21715B20A00B446ED /* HotelListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelListViewController.m; sourceTree = "<group>"; };
+		35B24FE41715B62000B446ED /* HotelDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailViewController.h; sourceTree = "<group>"; };
+		35B24FE51715B62000B446ED /* HotelDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 				35B24FD11715B18700B446ED /* AppDelegate.h */,
 				35B24FD21715B18800B446ED /* AppDelegate.m */,
 				35B24FC91715B18700B446ED /* Supporting Files */,
+				35B24FE11715B20A00B446ED /* HotelListViewController.h */,
+				35B24FE21715B20A00B446ED /* HotelListViewController.m */,
+				35B24FE41715B62000B446ED /* HotelDetailViewController.h */,
+				35B24FE51715B62000B446ED /* HotelDetailViewController.m */,
 			);
 			path = "JSON Tuto";
 			sourceTree = "<group>";
@@ -88,6 +100,7 @@
 		35B24FC91715B18700B446ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				35B24FDF1715B1EC00B446ED /* DataHotel.json */,
 				35B24FCA1715B18700B446ED /* JSON Tuto-Info.plist */,
 				35B24FCB1715B18700B446ED /* InfoPlist.strings */,
 				35B24FCE1715B18700B446ED /* main.m */,
@@ -154,6 +167,7 @@
 				35B24FD51715B18800B446ED /* Default.png in Resources */,
 				35B24FD71715B18800B446ED /* Default@2x.png in Resources */,
 				35B24FD91715B18800B446ED /* Default-568h@2x.png in Resources */,
+				35B24FE01715B1EC00B446ED /* DataHotel.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +180,8 @@
 			files = (
 				35B24FCF1715B18700B446ED /* main.m in Sources */,
 				35B24FD31715B18800B446ED /* AppDelegate.m in Sources */,
+				35B24FE31715B20A00B446ED /* HotelListViewController.m in Sources */,
+				35B24FE61715B62000B446ED /* HotelDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

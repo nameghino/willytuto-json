@@ -1,0 +1,62 @@
+[
+        {
+            "name": "Rio Othon Palace",
+            "adress": "Cesare Street 321",
+            "image": "hotel1",
+            "stars": "stars3w",
+            "description": "Confortable",
+            "rating": "8",
+            "comments": "20",
+            "price": "215",
+            "id":"1",
+            "availability": {
+                "from": "2013-03-02",
+                "to": "2013-03-22"
+            }
+        },
+        {
+            "name": "Granada Hotel Rio de Janeiro",
+            "adress": "Fake street 123",
+            "image": "hotel2",
+            "stars": "stars4w",
+            "description": "Muy Confortable",
+            "rating": "8",
+            "comments": "60",
+            "price": "148",
+            "id":"2",
+            "availability": {
+                "from": "2013-02-01",
+                "to": "2013-02-28"
+            }
+        },
+        {
+            "name": "Ibiza Hotel",
+            "adress": "Via Cesare Battisti 133",
+            "image": "hotel3",
+            "stars": "stars3w",
+            "description": "Poco confortable",
+            "rating": "5",
+            "comments": "10",
+            "price": "127",
+            "id":"3",
+            "availability": {
+                "from": "2013-05-12",
+                "to": "2013-05-18"
+            }
+        },
+        {
+            "name": "Rio Othon Palace 2",
+            "adress": "Cesare Street 221",
+            "image": "hotel4",
+            "stars": "stars3w",
+            "description": "Confortable",
+            "rating": "7",
+            "comments": "5",
+            "price": "200",
+            "id":"4",
+            "availability": {
+                "from": "2013-03-06",
+                "to": "2013-03-10"
+            }
+        }
+    ]

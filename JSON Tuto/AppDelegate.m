@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HotelListViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +15,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    HotelListViewController *hotelList = [[HotelListViewController alloc] initWithStyle:UITableViewStylePlain];
+    UINavigationController *navigator = [[UINavigationController alloc] initWithRootViewController:hotelList];
+    
+    self.window.rootViewController = navigator;
     [self.window makeKeyAndVisible];
     return YES;
 }
