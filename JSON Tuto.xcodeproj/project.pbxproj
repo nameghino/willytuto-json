@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3547541C1715CEC50019C042 /* 1-star@full.png in Resources */ = {isa = PBXBuildFile; fileRef = 354754171715CEC50019C042 /* 1-star@full.png */; };
+		3547541D1715CEC50019C042 /* 2-star@full.png in Resources */ = {isa = PBXBuildFile; fileRef = 354754181715CEC50019C042 /* 2-star@full.png */; };
+		3547541E1715CEC50019C042 /* 3-star@full.png in Resources */ = {isa = PBXBuildFile; fileRef = 354754191715CEC50019C042 /* 3-star@full.png */; };
+		3547541F1715CEC50019C042 /* 4-star@full.png in Resources */ = {isa = PBXBuildFile; fileRef = 3547541A1715CEC50019C042 /* 4-star@full.png */; };
+		354754201715CEC50019C042 /* 5-star@full.png in Resources */ = {isa = PBXBuildFile; fileRef = 3547541B1715CEC50019C042 /* 5-star@full.png */; };
 		35B24FC31715B18700B446ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B24FC21715B18700B446ED /* UIKit.framework */; };
 		35B24FC51715B18700B446ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B24FC41715B18700B446ED /* Foundation.framework */; };
 		35B24FC71715B18700B446ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B24FC61715B18700B446ED /* CoreGraphics.framework */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		354754171715CEC50019C042 /* 1-star@full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-star@full.png"; sourceTree = "<group>"; };
+		354754181715CEC50019C042 /* 2-star@full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-star@full.png"; sourceTree = "<group>"; };
+		354754191715CEC50019C042 /* 3-star@full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-star@full.png"; sourceTree = "<group>"; };
+		3547541A1715CEC50019C042 /* 4-star@full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-star@full.png"; sourceTree = "<group>"; };
+		3547541B1715CEC50019C042 /* 5-star@full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-star@full.png"; sourceTree = "<group>"; };
 		35B24FBF1715B18700B446ED /* JSON Tuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Tuto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B24FC21715B18700B446ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35B24FC41715B18700B446ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +110,11 @@
 		35B24FC91715B18700B446ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				354754171715CEC50019C042 /* 1-star@full.png */,
+				354754181715CEC50019C042 /* 2-star@full.png */,
+				354754191715CEC50019C042 /* 3-star@full.png */,
+				3547541A1715CEC50019C042 /* 4-star@full.png */,
+				3547541B1715CEC50019C042 /* 5-star@full.png */,
 				35B24FDF1715B1EC00B446ED /* DataHotel.json */,
 				35B24FCA1715B18700B446ED /* JSON Tuto-Info.plist */,
 				35B24FCB1715B18700B446ED /* InfoPlist.strings */,
@@ -168,6 +183,11 @@
 				35B24FD71715B18800B446ED /* Default@2x.png in Resources */,
 				35B24FD91715B18800B446ED /* Default-568h@2x.png in Resources */,
 				35B24FE01715B1EC00B446ED /* DataHotel.json in Resources */,
+				3547541C1715CEC50019C042 /* 1-star@full.png in Resources */,
+				3547541D1715CEC50019C042 /* 2-star@full.png in Resources */,
+				3547541E1715CEC50019C042 /* 3-star@full.png in Resources */,
+				3547541F1715CEC50019C042 /* 4-star@full.png in Resources */,
+				354754201715CEC50019C042 /* 5-star@full.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +316,7 @@
 				35B24FDE1715B18800B446ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
